@@ -1,0 +1,3 @@
+guile-gnutls: binary-from-other-architecture usr/lib/*/guile/*/site-ccache/*.go
+guile-gnutls: shared-lib-without-dependency-information usr/lib/*/guile/*/site-ccache/gnutls*.go
+guile-gnutls: unstripped-binary-or-object usr/lib/*/guile/*/site-ccache/gnutls*.go

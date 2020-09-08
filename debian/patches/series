@@ -1,0 +1,5 @@
+14_version_gettextcat.diff
+30_guile-snarf.diff
+50_Update-session_ticket.c-to-add-support-for-zero-leng.patch
+CVE-2020-13777.patch
+CVE-2020-24659.patch
