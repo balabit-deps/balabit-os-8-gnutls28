@@ -1,3 +1,10 @@
+gnutls28 (3.6.13-2ubuntu1.3bb1) focal; urgency=medium
+
+  * tests/Makefile.am: remove status-request-revoked test
+  * tests/testpkcs11.sh: run pkcs11 tests in the year of 2014
+
+ -- Balabit Platform Team <devnull@dev.null>  Tue, 22 Dec 2020 15:43:22 +0100
+
 gnutls28 (3.6.13-2ubuntu1.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: null pointer deref via no_renegotiation alert
