@@ -3,3 +3,7 @@
 50_Update-session_ticket.c-to-add-support-for-zero-leng.patch
 CVE-2020-13777.patch
 CVE-2020-24659.patch
+2b0f6f3a2ff13153aaa70c764ba7a8b90aef794d.diff
+update-status-request-revoked.patch
+CVE-2021-20231.patch
+CVE-2021-20232.patch
