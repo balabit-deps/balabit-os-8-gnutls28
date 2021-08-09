@@ -1,3 +1,9 @@
+gnutls28 (3.6.13-2ubuntu1.6bb2) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Mon, 09 Aug 2021 02:34:53 +0200
+
 gnutls28 (3.6.13-2ubuntu1.6bb1) focal; urgency=medium
 
   * Balabit patched version
