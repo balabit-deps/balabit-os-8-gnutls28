@@ -1,3 +1,17 @@
+gnutls28 (3.6.13-2ubuntu1.7) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Null pointer dereference in MD_UPDATE
+    - debian/patches/CVE-2021-4209.patch: avoid calling _update with
+      zero-length input in lib/nettle/mac.c.
+    - CVE-2021-4209
+  * SECURITY UPDATE: Double free in verification of pkcs7 signatures
+    - debian/patches/CVE-2022-2509.patch: fix double free during
+      gnutls_pkcs7_verify in lib/x509/pkcs7.c,
+      tests/pkcs7-verify-double-free.c, tests/Makefile.am.
+    - CVE-2022-2509
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 02 Aug 2022 08:50:52 -0400
+
 gnutls28 (3.6.13-2ubuntu1.6) focal-security; urgency=medium
 
   * SECURITY UPDATE: use after free issue in key_share extension
