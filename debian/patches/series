@@ -7,3 +7,5 @@ CVE-2020-24659.patch
 update-status-request-revoked.patch
 CVE-2021-20231.patch
 CVE-2021-20232.patch
+CVE-2021-4209.patch
+CVE-2022-2509.patch
