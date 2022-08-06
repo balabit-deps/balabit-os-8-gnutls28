@@ -1,3 +1,9 @@
+gnutls28 (3.6.13-2ubuntu1.7bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 06 Aug 2022 16:21:40 +0200
+
 gnutls28 (3.6.13-2ubuntu1.7) focal-security; urgency=medium
 
   * SECURITY UPDATE: Null pointer dereference in MD_UPDATE
