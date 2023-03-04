@@ -1,3 +1,9 @@
+gnutls28 (3.6.13-2ubuntu1.8bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 04 Mar 2023 16:25:26 +0100
+
 gnutls28 (3.6.13-2ubuntu1.8) focal-security; urgency=medium
 
   * SECURITY UPDATE: timing sidechannel in RSA decryption
