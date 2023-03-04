@@ -1,3 +1,14 @@
+gnutls28 (3.6.13-2ubuntu1.8) focal-security; urgency=medium
+
+  * SECURITY UPDATE: timing sidechannel in RSA decryption
+    - debian/patches/CVE-2023-0361-1.patch: side-step potential
+      side-channel in lib/auth/rsa.c.
+    - debian/patches/CVE-2023-0361-2.patch: remove dead code in
+      lib/auth/rsa.c.
+    - CVE-2023-0361
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 14 Feb 2023 16:13:51 -0500
+
 gnutls28 (3.6.13-2ubuntu1.7bb1) focal; urgency=medium
 
   * Balabit patched version
