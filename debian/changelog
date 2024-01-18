@@ -1,3 +1,12 @@
+gnutls28 (3.6.13-2ubuntu1.10) focal-security; urgency=medium
+
+  * SECURITY UPDATE: timing side-channel attack in the RSA-PSK key exchange
+    - debian/patches/CVE-2024-0553.patch: minimize branching after
+      decryption in lib/auth/rsa_psk.c.
+    - CVE-2024-0553
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 18 Jan 2024 12:25:14 -0500
+
 gnutls28 (3.6.13-2ubuntu1.9) focal-security; urgency=medium
 
   * SECURITY UPDATE: timing side-channel inside RSA-PSK key exchange
