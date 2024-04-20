@@ -1,3 +1,9 @@
+gnutls28 (3.6.13-2ubuntu1.11bb1) focal; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Sat, 20 Apr 2024 14:22:30 +0000
+
 gnutls28 (3.6.13-2ubuntu1.11) focal-security; urgency=medium
 
   * SECURITY UPDATE: side-channel leak via Minerva attack
