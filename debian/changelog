@@ -1,3 +1,15 @@
+gnutls28 (3.6.13-2ubuntu1.11) focal-security; urgency=medium
+
+  * SECURITY UPDATE: side-channel leak via Minerva attack
+    - debian/patches/CVE-2024-28834.patch: avoid normalization of mpz_t in
+      deterministic ECDSA in lib/nettle/int/dsa-compute-k.c,
+      lib/nettle/int/dsa-compute-k.h, lib/nettle/int/ecdsa-compute-k.c,
+      lib/nettle/int/ecdsa-compute-k.h, lib/nettle/pk.c,
+      tests/sign-verify-deterministic.c.
+    - CVE-2024-28834
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 12 Apr 2024 09:56:37 -0400
+
 gnutls28 (3.6.13-2ubuntu1.10bb1) focal; urgency=medium
 
   * Balabit patched version
