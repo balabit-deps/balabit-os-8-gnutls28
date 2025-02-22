@@ -1,3 +1,18 @@
+gnutls28 (3.6.13-2ubuntu1.12) focal-security; urgency=medium
+
+  * SECURITY UPDATE: resource consumption issue when decoding DER-encoded
+    certificate data
+    - debian/patches/CVE-2024-12243-pre1.patch: add _gnutls_reallocarray
+      and _gnutls_reallocarray_fast in lib/mem.*.
+    - debian/patches/CVE-2024-12243-pre2.patch: add INT_ADD_OK etc in
+      gl/intprops.h.
+    - debian/patches/CVE-2024-12243.patch: optimize name constraints
+      processing in lib/datum.c,  lib/x509/name_constraints.c,
+      lib/x509/x509_ext.c, lib/x509/x509_ext_int.h, lib/x509/x509_int.h.
+    - CVE-2024-12243
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 12 Feb 2025 12:32:03 -0500
+
 gnutls28 (3.6.13-2ubuntu1.11bb1) focal; urgency=medium
 
   * Balabit patched version
